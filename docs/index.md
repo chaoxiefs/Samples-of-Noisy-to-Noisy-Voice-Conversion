@@ -40,25 +40,28 @@ Target (Speaker TF2):
 |---------------------|---------------|------------------|
 |Upper Bound                   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgxODVf/s_c_ic_tf2sf3_30001_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyMTdf/s_n_ic_tf2sf3_30001_snr5.wav"></audio>   |
 |Baseline                 |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgxODRf/s_c_d_tf2sf3_30001_snr5.wav"></audio>      |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/d/NTBfMjQ5ODgyMTZf/s_n_d_tf2sf3_30001_snr5.wav"></audio>   |
-|N2N-SI         |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQwOTZf/method2_clean_sf3tf2_30016_n93_snr15.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjI2MTZf/md_15_sf3tf2_30016_n93.wav"></audio>   |
-|N2N-SD          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQwOTZf/method2_clean_sf3tf2_30016_n93_snr15.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjI2MTZf/md_15_sf3tf2_30016_n93.wav"></audio>   |
-|N2N-Noise-Aug II          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQwOTZf/method2_clean_sf3tf2_30016_n93_snr15.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjI2MTZf/md_15_sf3tf2_30016_n93.wav"></audio>   |
+|N2N-SI         |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgxODZf/s_c_id_tf2sf3_30001_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyMjNf/s_n_id_tf2sf3_30001_snr5.wav"></audio>   |
+|N2N-SD          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgxODdf/s_c_id2_tf2sf3_30001_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyMjhf/s_n_id2_tf2sf3_30001_snr5.wav"></audio>   |
+|N2N-Noise-Aug II          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgxODhf/s_c_id2aug_tf2sf3_30001_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyMjlf/s_n_id2aug_tf2sf3_30001_snr5.wav"></audio>   |
 
 
-### 2. Noisy source (Speaker SF4;  Noise type: Phone dialing (N100);  SNR: 7 dB):
-<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMTNf/noisy_sf4_30026_n100_snr7.wav"></audio>
+### 2. Noisy source (Speaker SF4;  Noise type: Dog;  SNR: 5 dB):
+<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNjFf/s_n_gt_sf4_30005_snr5.wav"></audio>
 
 Denosied source:
-<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMTFf/denoised_sf4_30026_n100_snr7.wav"></audio>
+<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNThf/s_de_gt_sf4_30005_snr5.wav"></audio>
 
 Target (Speaker TM2): 
-<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMDRf/TM2_30002.wav"></audio>
+<audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNjNf/s_n_gt_tm2_30003_snr5.wav"></audio>
 
 | Methods             | Clean         | Noisy            |
 |---------------------|---------------|------------------|
-|Baseline                    |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMDlf/base_sf4tm2_30026_n100_snr7.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjIzMjdf/da_7_sf4tm2_30026_n100.wav"></audio>   |
-|Proposed (Direct)           |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMTBf/method2_sf4tm2_30026_n100_snr7.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjI1OTNf/md_7_sf4tm2_30026_n100.wav"></audio>   |
-|Upper Bound                 |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjA5NzQxMTVf/upper_clean_sf4tm2_30026.wav"></audio>      |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMTk4NjIyNDdf/ca_7_sf4tm2_30026_n100.wav"></audio>   |
+|Upper Bound                   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNDFf/s_c_ic_tm2sf4_30005_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNjZf/s_n_ic_tm2sf4_30005_snr5.wav"></audio>   |
+|Baseline                 |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNDBf/s_c_d_tm2sf4_30005_snr5.wav"></audio>      |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNjRf/s_n_d_tm2sf4_30005_snr5.wav"></audio>   |
+|N2N-SI         |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNDJf/s_c_id_tm2sf4_30005_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNjdf/s_n_id_tm2sf4_30005_snr5.wav"></audio>   |
+|N2N-SD          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNTZf/s_c_id2_tm2sf4_30005_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNzFf/s_n_id2_tm2sf4_30005_snr5.wav"></audio>   |
+|N2N-Noise-Aug II          |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNTdf/s_c_id2aug_tm2sf4_30005_snr5.wav"></audio>   |   <audio id="audio" controls="" preload="none"><source id="wav" src="https://od.lk/s/NTBfMjQ5ODgyNzJf/s_n_id2aug_tm2sf4_30005_snr5.wav"></audio>   |
+
 
 
 ### 3. Noisy source (Speaker SM3;  Noise type: Snore (N87);  SNR: 7 dB):
