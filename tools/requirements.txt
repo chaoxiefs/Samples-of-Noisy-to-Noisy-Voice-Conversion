@@ -1,0 +1,17 @@
+numpy
+scipy
+librosa
+numba
+pyloudnorm
+tensorboard
+fairseq
+soundfile
+pyyaml
+timm
+tqdm
+torchaudio
+pysptk
+fastdtw
+resemblyzer
+pyworld
+yaml

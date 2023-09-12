@@ -1,0 +1,12 @@
+VCC2TF1:
+  minf0: 140
+  maxf0: 350
+VCC2TF2:
+  minf0: 120
+  maxf0: 420
+VCC2TM1:
+  minf0: 70
+  maxf0: 220
+VCC2TM2:
+  minf0: 40
+  maxf0: 270
